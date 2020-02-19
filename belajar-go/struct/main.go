@@ -201,8 +201,8 @@ type student3 struct {
 
 // tag property dalam struct
 type person2 struct {
-	name string `tag1`
-	age  int    `tag2`
+	Name string `json:"name"`
+	Age  int    `json:"age"`
 }
 
 // pembuatan struc dengan teknik alias
